@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: cornsilk;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.welcome h1{
+    font-size: 80px;
+    color: blue;
+    margin: 15px;
+    font-family: 'Birthstone', cursive;
+}
+
+.welcome h2{
+    font-size: 40px;
+    color: red;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
